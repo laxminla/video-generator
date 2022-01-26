@@ -1,11 +1,6 @@
 body {
    background-color: rgba(0, 174, 255, 0.295);
 }
-/* h1 {
-   text-align: center;
-   color: crimson;
-} */
-
     .search-engine {
        display: block;
        margin: 40px auto;
@@ -48,6 +43,7 @@ body {
     display: flex;
     flex-direction: row;
     border-radius: 15px;
+    flex-wrap: wrap;
  }
  .video-results {
     width: 400px;
@@ -76,5 +72,11 @@ body {
  }
  .hidden {
     display: none;
+ }
+
+ @media only screen and (max-width: 600px) {
+   body {
+     background-color: rgb(120, 128, 131);
+   }
  }
 
