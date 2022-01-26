@@ -1,44 +1,33 @@
-Project Title: Mini Video Generator
 
+# Video Generator App
 
-Project Description: Web Page with buttons or sections of the page where if you click a specific button, it pulls up videos related to a specific topic.
+## Description
+ Web Page with buttons or sections of the page where if you click a specific button, it pulls up videos related to a specific topic. This app allow you to watch your videos and post comments on the specific section of the page.
 
+## Installation
+- cloned the repo from github
+- created index.html, css, and script.js folder
 
-User Story: 
+## Usages
+Search videos, watch, and post comments.
 
-Given a webpage with multiple stylized buttons/cards
-When I click a search input bar I can type anything I want to search for
-then I am presented with sets of random videos related to the search term  
-When I click a specific videos  
-Then I am taken to the next side of the page that has a nice display of title, description, and video
-When I displayed with the videos
-Then I can comment below the video
-When I return to the page
-The comments stay on the page.
+## Contributior
+Laxmi
+Evelyn
+Sushil
+James
 
-APIs used for the project: 
-YouTube API
-Dailymotion API
+## Screenshot
+<img width="844" alt="Untitled" src="https://user-images.githubusercontent.com/82288418/151096052-33e22a1c-aa9e-49e4-9b64-fcd575e9af0b.png">
 
-Rough break down of tasks:
-HTML for home page
-Card
-Button
-Video section
-Comment section
-Ranking section
-Find CSS framework and learn how to use it
-Create eventListener that toggles from card to next page
-Create function that retrieves YouTube API and renders video
-Create function that saves and renders comments
-Create function that uses YouTube API to render next videos
-Create function that saves and renders rankings
-Create function that randomizes the front page
-Styling home page
-Styling next page
-
-
-Links:
+## Links
 Deployed at: https://laxminla.github.io/video-generator/
 GitHub repo: https://github.com/laxminla/video-generator.git 
+
+## Linkedin
+https://www.linkedin.com/in/laxmi-sharma-40057a20b/
+
+## E-mail
+laxminla@yahoo.com
+
 
